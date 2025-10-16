@@ -1,6 +1,7 @@
 import os
 import time
 
+
 def charge_animation():
     frames = [
         """
@@ -38,7 +39,7 @@ def charge_animation():
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Charge:")
         print(frame)
-        time.sleep(1)
+        time.sleep(0.5)
 
-# Запускаем обратный отсчет
+# Запускаем зарядку
 charge_animation()
