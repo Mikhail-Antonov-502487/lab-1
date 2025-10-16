@@ -11,7 +11,7 @@ BLACK = '\u001b[0;30m'
 k = 10
 
 
-def Japan():
+def draw_japan():
     str3 = f'{WHITE}{"  " * (13 + k)}{END}'
     str4 = f'{WHITE}{"  " * (12 + k)}{END}'
     str5 = f'{WHITE}{"  " * (11 + k)}{END}'
@@ -103,7 +103,7 @@ def diag():
         else: 
             print('Меньше -5:', f'{YELLOW}{"  " * per_m}{END}',s2 )
 
-Japan()
+draw_japan()
 print()
 uzor()
 print()
